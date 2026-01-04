@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book world</title>
+    <link rel="stylesheet" href="libraries.css">
+    <script src="libraries.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></head>
+<body>
+    <nav id="navbar">
+        <h1>Bookz World</h1>
+    </nav>
+    <div id="centerbody">
+        <div class="container">
+            <h2>Jungle Book</h2>
+            <h3>The philosopher</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Quasi fugit repudiandae soluta nisi minus itaque ipsam quae asperiores eligendi
+                  animi sit, dignissimos vitae ducimus corrupti maxime aspernatur! 
+                  Officia corporis blanditiis cupiditate, similique maiores laboriosam dolorem.
+                   Unde modi itaque consequatur quod totam magnam ab, optio neque delectus 
+                   accusantium! Blanditiis, sequi ab!
+            </p>
+            <button class="del" onclick="delBook(event)">Delete</button>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <div id="popup">
+        <h2>Add a Book...</h2>
+        <input id="addTitle" type="text" placeholder="Add Title">
+        <input id="addAuthor" type="text" placeholder="Add Author">
+        <textarea id="addDescription" placeholder="Enter Description"></textarea>
+        <br>
+        <center>
+        <button id="addBook">Add</button>
+        <button id="cancel">Cancel</button>
+        </center>
+    </div>
+    <button id="add">+</button>
+    <script src="libraries.js"></script>
+</body>
+</html>
